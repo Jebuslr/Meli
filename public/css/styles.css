@@ -1,0 +1,499 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+p {
+    font-size: 12px;
+}
+
+article {
+    margin-top: 10px;
+    background-color: white;
+}
+
+.topSection {
+    display: flex;
+    /* flex-grow: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+    padding: 15px;
+}
+
+.logo-mercado-liebre {
+    /* position: absolute; */
+    /* margin-right: 10%; */
+    width: 50%;
+}
+
+.logo-mercado-liebre img {
+    width: 40vw;
+}
+
+.buscador {
+    display: flex;
+    /* position: relative; */
+    /* right: 0px; */
+    width: 50%;
+    /* TODO en viewport mobile position absolute */
+}
+
+.p__topMessage {
+    /* position: relative; */
+    text-align: center;
+    font-size: medium;
+    padding: 15px 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.topList li {
+    margin: 0px 10px;
+}
+
+.topList li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topList li i {
+    margin-left: 10px;
+}
+
+.registro,
+.login{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+/*
+Css GPT
+
+*/
+
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+form h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form input[type="file"],
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #2968c8; */
+    background-color: #ccc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="reset"] {
+    background-color: #ccc;
+    margin-top: 5px;
+}
+
+form input[type="reset"]:hover,
+form input[type="submit"]:hover {
+    background-color: #2968c8;
+    /* background-color: #0022AA; */
+}
+
+/* 
+form input[type="checkbox"] + label,
+form input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+} */
+
+
+/* 
+Css GPT
+
+*/
+
+
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: rgb(31, 196, 31);
+    width: 70%;
+    flex: 1;
+    text-align: left;
+
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px rgb(31, 196, 31);
+    color: rgb(31, 196, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    right: 20px;
+
+    top: -15px;
+
+    font-size: 16px;
+
+}
+
+.descripcion {
+    padding-top: 30px;
+    font-size: 16px;
+    color: grey;
+}
+
+.burger-menu {
+    /* font-size: 25px; */
+    color: white;
+    padding: 10px;
+    background-color: #1259c3;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 30px; */
+    margin-bottom: 1rem;
+}
+
+.products__info {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    line-height: 5px;
+    position: relative;
+
+}
+
+.descuento-container {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+.products section article div img {
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.products--images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 25vw;
+}
+
+.products h3 {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(85, 85, 85);
+    margin: 15px 0px;
+}
+
+.product-desc-box>.product-delivery-icon {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.product-desc-box {
+    position: relative;
+}
+
+.bottomSection {
+    display: block;
+    background-color: white;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.bottomSection i {
+    margin-bottom: 10px;
+}
+
+.bottomSection div p {
+    margin: 0;
+    padding: 30px;
+}
+
+.bottomSection section {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.bottomSection section h4 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.bottomSection__text {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomSection__text p {
+    font-size: 13px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.bottomSection section i {
+    font-size: 2em;
+    color: #1259c3;
+}
+
+/* Ocultar la descripción por defecto */
+.products__info .descripcion {
+    /* display: none; */
+    opacity: 0;
+}
+
+/* Mostrar la descripción al pasar el mouse sobre el artículo */
+article:hover .descripcion {
+    /* display: block; */
+    opacity: 1;
+}
+
+/* Añadir sombra al pasar el mouse sobre el artículo */
+article:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Transición suave para el ícono del camión */
+.logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Transformación al pasar el mouse por encima */
+article:hover .logo {
+    transform: rotate(-90deg);
+}
+
+.bottomSection section:hover i{
+    color: #EAC926;
+    transition: 300ms;
+}
+
+
+@media (max-width: 430px) {
+
+    /* .logo-mercado-liebre {
+        margin-right: 10%;
+        width: 50%;
+    }
+    
+    .logo-mercado-liebre img{
+        margin-right: 10%;
+        width: 200px;
+    }
+    
+    .buscador{
+        width: 50%;
+    } */
+    .topSection {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        /* Asegura que las cards se apilen verticalmente */
+        align-items: center;
+        /* Centra las cards horizontalmente */
+        width: 100%;
+        /* Ocupa el 100% del ancho del contenedor */
+    }
+
+
+    article {
+        width: 90%;
+        /* Ocupa el 100% del ancho del contenedor */
+        margin: 10px 5%;
+        /* Añade márgenes verticales para espaciado */
+        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+
+
+    }
+
+
+    nav {
+        display: none;
+    }
+}
+
+
+@media (min-width: 680px) {
+    .logo-mercado-liebre {
+        margin: 0px 5px;
+    }
+
+    .buscador {
+        margin: 0px 5px;
+        width: 30%;
+    }
+
+    .p__topMessage {
+        margin: 0px 5px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .products--images img {
+        max-height: 15vh;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article {
+        width: 49%;
+
+    }
+
+    form{
+        width: 40vw;   
+    }
+
+}
+
+@media(min-width: 1360px) {
+    .products--images img {
+        max-height: 23vh;
+    }
+
+
+    article {
+        width: 24%;
+    }
+
+    .bottomSection {
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bottomSection section {
+        width: 33%;
+    }
+
+
+}
